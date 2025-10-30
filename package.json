@@ -10,17 +10,13 @@
   "description": "",
   "main": "playwright.config.js",
   "scripts": {
-  "test": "npx cucumber-js", 
-  "test:report": "npx cucumber-js --format html:./reports/login-report.html"
-},
-
+    "test": "npx cucumber-js",
+    "test:report": "npx cucumber-js --format json:./reports/cucumber_report.json && node generateReport.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cucumber-html-reporter": "^7.2.0"
   }
-
-
-
 }
