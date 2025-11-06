@@ -1,4 +1,3 @@
-Here’s a clean, **GitHub-friendly README.md** version of your **Playwright Cucumber E2E Automation Framework**, formatted properly without any icons — ready to paste into GitHub:
 
 
 ```md
@@ -11,8 +10,11 @@ It automates core user journeys on the **SauceDemo** website, including login, a
 The framework follows the **Page Object Model (POM)** structure for better code reusability and maintainability.  
 It is **CI/CD ready** and includes **HTML reporting** for all test executions.
 
+---
 
 ## Project Structure
+
+```
 
 PlaywrightCucumberProject/
 │
@@ -38,6 +40,9 @@ PlaywrightCucumberProject/
 ├── generateReport.js        # Script to generate HTML report
 └── package.json
 
+````
+
+---
 
 ## Tech Stack
 
@@ -47,11 +52,15 @@ PlaywrightCucumberProject/
 - **cucumber-html-reporter** – HTML reporting  
 - **Page Object Model (POM)** – Code organization and reusability  
 
+---
+
 ## Features Automated
 
 - **Login** – Validates user login with correct credentials  
 - **Add to Cart** – Adds selected products to the shopping cart  
 - **Place Order** – Completes checkout and verifies confirmation message  
+
+---
 
 ## How to Run Tests
 
@@ -73,12 +82,14 @@ PlaywrightCucumberProject/
    reports/cucumber_report.html
    ```
 
+---
 
 ## Reporting
 
 All feature results (Login, Add to Cart, Place Order) are combined in a single **HTML report** generated through the `generateReport.js` file.
 The report includes test status, duration per step, and execution environment details.
 
+---
 
 ## Future Enhancements
 
@@ -86,6 +97,7 @@ The report includes test status, duration per step, and execution environment de
 * Capture screenshots on failure
 * Integrate with CI/CD tools such as GitHub Actions or Jenkins
 
+---
 
 ## Author
 
@@ -93,3 +105,9 @@ The report includes test status, duration per step, and execution environment de
 Automation Engineer | Playwright | Cucumber | JavaScript
 GitHub: [https://github.com/masjery/playwright-cucumber-project](https://github.com/masjery/playwright-cucumber-project)
 
+```
+
+---
+
+
+```
