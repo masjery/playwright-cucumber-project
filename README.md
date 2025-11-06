@@ -37,7 +37,7 @@ PlaywrightCucumberProject/
 ├── generateReport.js        # Script to generate HTML report
 └── package.json
 
-
+```
 
 ## Tech Stack
 
@@ -68,10 +68,8 @@ PlaywrightCucumberProject/
 
 3. **View HTML Report**
    After test execution, open:
-
-   ```
+   
    reports/cucumber_report.html
-   ```
 
 
 ## Reporting
