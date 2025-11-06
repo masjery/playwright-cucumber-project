@@ -1,7 +1,5 @@
-Here’s a clean, **GitHub-friendly README.md** version of your **Playwright Cucumber E2E Automation Framework**, formatted properly without any icons — ready to paste into GitHub:
 
 
-```md
 # Playwright Cucumber E2E Automation Framework
 
 ## Overview
