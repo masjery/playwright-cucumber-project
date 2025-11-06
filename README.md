@@ -9,11 +9,9 @@ It automates core user journeys on the **SauceDemo** website, including login, a
 The framework follows the **Page Object Model (POM)** structure for better code reusability and maintainability.  
 It is **CI/CD ready** and includes **HTML reporting** for all test executions.
 
----
 
 ## Project Structure
 
-```
 
 PlaywrightCucumberProject/
 │
@@ -39,9 +37,7 @@ PlaywrightCucumberProject/
 ├── generateReport.js        # Script to generate HTML report
 └── package.json
 
-````
 
----
 
 ## Tech Stack
 
@@ -51,7 +47,6 @@ PlaywrightCucumberProject/
 - **cucumber-html-reporter** – HTML reporting  
 - **Page Object Model (POM)** – Code organization and reusability  
 
----
 
 ## Features Automated
 
@@ -59,20 +54,17 @@ PlaywrightCucumberProject/
 - **Add to Cart** – Adds selected products to the shopping cart  
 - **Place Order** – Completes checkout and verifies confirmation message  
 
----
 
 ## How to Run Tests
 
 1. **Install dependencies**
    ```bash
    npm install
-````
 
 2. **Run all tests** (headless mode off for visibility)
 
    ```bash
    npm run test:report
-   ```
 
 3. **View HTML Report**
    After test execution, open:
@@ -81,14 +73,11 @@ PlaywrightCucumberProject/
    reports/cucumber_report.html
    ```
 
----
 
 ## Reporting
 
 All feature results (Login, Add to Cart, Place Order) are combined in a single **HTML report** generated through the `generateReport.js` file.
 The report includes test status, duration per step, and execution environment details.
-
----
 
 ## Future Enhancements
 
@@ -96,7 +85,6 @@ The report includes test status, duration per step, and execution environment de
 * Capture screenshots on failure
 * Integrate with CI/CD tools such as GitHub Actions or Jenkins
 
----
 
 ## Author
 
@@ -104,9 +92,3 @@ The report includes test status, duration per step, and execution environment de
 Automation Engineer | Playwright | Cucumber | JavaScript
 GitHub: [https://github.com/masjery/playwright-cucumber-project](https://github.com/masjery/playwright-cucumber-project)
 
-```
-
----
-
-
-```
