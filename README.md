@@ -12,7 +12,7 @@ It is **CI/CD ready** and includes **HTML reporting** for all test executions.
 
 ## Project Structure
 
-
+```
 PlaywrightCucumberProject/
 │
 ├── features/                # Feature files (BDD scenarios)
