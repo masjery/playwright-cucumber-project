@@ -68,7 +68,7 @@ PlaywrightCucumberProject/
 
 3. **View HTML Report**
    After test execution, open:
-   
+   ```bash
    reports/cucumber_report.html
 
 
